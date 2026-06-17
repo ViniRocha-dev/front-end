@@ -64,3 +64,26 @@ h2 {
   border-radius: 10px;
   margin-bottom: 15px;
 }
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  nav {
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .mod-card {
+    padding: 10px;
+  }
+
+  input {
+    font-size: 14px;
+  }
+
+  button {
+    width: 100%;
+    margin-top: 5px;
+  }
+}
